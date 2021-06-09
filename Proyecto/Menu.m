@@ -22,7 +22,7 @@ function varargout = Menu(varargin)
 
 % Edit the above text to modify the response to help Menu
 
-% Last Modified by GUIDE v2.5 19-Jan-2021 19:37:57
+% Last Modified by GUIDE v2.5 09-Jun-2021 00:33:14
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -77,15 +77,6 @@ function varargout = Menu_OutputFcn(hObject, eventdata, handles)
 
 % Get default command line output from handles structure
 varargout{1} = handles.output;
-
-
-% --- Executes on button press in Voz.
-function Voz_Callback(hObject, eventdata, handles)
-close(Menu)
-Interfaz
-% hObject    handle to Voz (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
 
 
 % --- Executes on button press in Discreta.
