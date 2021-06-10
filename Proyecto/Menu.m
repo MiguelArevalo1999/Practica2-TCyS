@@ -22,7 +22,7 @@ function varargout = Menu(varargin)
 
 % Edit the above text to modify the response to help Menu
 
-% Last Modified by GUIDE v2.5 09-Jun-2021 00:33:14
+% Last Modified by GUIDE v2.5 09-Jun-2021 21:15:01
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -47,7 +47,7 @@ end
 % --- Executes just before Menu is made visible.
 function Menu_OpeningFcn(hObject, eventdata, handles, varargin)
 axes(handles.menu);
-[x,map]=imread('Menu.jpg');
+[x,map]=imread('entrada.jpg');
 image(x)
 colormap(map);
 axis off
@@ -93,5 +93,13 @@ menudis
 function salir_Callback(hObject, eventdata, handles)
 close(Menu)
 % hObject    handle to salir (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+
+% --- If Enable == 'on', executes on mouse press in 5 pixel border.
+% --- Otherwise, executes on mouse press in 5 pixel border or over text3.
+function text3_ButtonDownFcn(hObject, eventdata, handles)
+% hObject    handle to text3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
