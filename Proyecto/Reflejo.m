@@ -22,7 +22,7 @@ function varargout = Reflejo(varargin)
 
 % Edit the above text to modify the response to help Reflejo
 
-% Last Modified by GUIDE v2.5 25-Jan-2021 04:00:16
+% Last Modified by GUIDE v2.5 10-Jun-2021 15:50:29
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -53,7 +53,7 @@ function Reflejo_OpeningFcn(hObject, ~, handles, varargin)
 % varargin   command line arguments to Reflejo (see VARARGIN)
 handles.output = hObject;
 axes(handles.axes1)
-imshow('logoescom.jpg')
+imshow('meme2.jpg')
 % Choose default command line output for Reflejo
 handles.output = hObject;
 

@@ -22,7 +22,7 @@ function varargout = Diezmacion(varargin)
 
 % Edit the above text to modify the response to help Diezmacion
 
-% Last Modified by GUIDE v2.5 24-Jan-2021 23:20:05
+% Last Modified by GUIDE v2.5 10-Jun-2021 15:41:20
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -53,7 +53,7 @@ function Diezmacion_OpeningFcn(hObject, ~, handles, varargin)
 % varargin   command line arguments to Diezmacion (see VARARGIN)
 handles.output = hObject;
 axes(handles.axes1)
-imshow('logoescom.jpg')
+imshow('meme1.jpg')
 % Choose default command line output for Diezmacion
 handles.output = hObject;
 
