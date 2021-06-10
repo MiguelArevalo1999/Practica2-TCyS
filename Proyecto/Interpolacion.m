@@ -22,7 +22,7 @@ function varargout = Interpolacion(varargin)
 
 % Edit the above text to modify the response to help Interpolacion
 
-% Last Modified by GUIDE v2.5 25-Jan-2021 01:40:00
+% Last Modified by GUIDE v2.5 09-Jun-2021 21:08:21
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -53,7 +53,7 @@ function Interpolacion_OpeningFcn(hObject, ~, handles, varargin)
 % varargin   command line arguments to Interpolacion (see VARARGIN)
 handles.output = hObject;
 axes(handles.axes1)
-imshow('logoescom.jpg')
+imshow('descarga.jfif')
 % Choose default command line output for Interpolacion
 handles.output = hObject;
 
@@ -317,11 +317,11 @@ function figure1_SizeChangedFcn(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 
-% --- Executes on button press in Atras.
-function Atras_Callback(hObject, eventdata, handles)
+% --- Executes on button press in Regresar.
+function Regresar_Callback(hObject, eventdata, handles)
 close(Interpolacion)
 menudis
-% hObject    handle to Atras (see GCBO)
+% hObject    handle to Regresar (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 

@@ -48,7 +48,7 @@ end
 function FFT_OpeningFcn(hObject, eventdata, handles, varargin)
 handles.output = hObject;
 axes(handles.axes1)
-imshow('logoescom.jpg')
+imshow('logoipn.png')
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
@@ -140,18 +140,18 @@ p = unwrap(angle(y));
 f = (0:length(y)-1)*100/length(y);        % Frequency vector
 tiempo=linspace(0,6,N)
 axes(handles.axes2)
-stem(x,tiempo);
+stem(x,tiempo,'k');
 xlim([-20 20]);
 figure();
 subplot(2,1,1)
-plot(f,m)
-title('Magnitude')
+plot(f,m,'r')
+title('Magnitud')
 ax = gca;
 ax.XTick = [15 40 60 85];
 
 subplot(2,1,2)
-plot(f,p*180/pi)
-title('Phase')
+plot(f,p*180/pi,'g')
+title('Fase')
 ax = gca;
 ax.XTick = [15 40 60 85];
 % hObject    handle to pushbutton2 (see GCBO)
