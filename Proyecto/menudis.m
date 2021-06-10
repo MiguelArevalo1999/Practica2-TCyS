@@ -47,7 +47,7 @@ end
 % --- Executes just before menudis is made visible.
 function menudis_OpeningFcn(hObject, eventdata, handles, varargin)
 axes(handles.menudis);
-[x,map]=imread('Menudis.jpg');
+[x,map]=imread('fourier.jpg');
 image(x)
 colormap(map);
 axis off
