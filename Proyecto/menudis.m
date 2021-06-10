@@ -22,7 +22,7 @@ function varargout = menudis(varargin)
 
 % Edit the above text to modify the response to help menudis
 
-% Last Modified by GUIDE v2.5 25-Jan-2021 05:59:52
+% Last Modified by GUIDE v2.5 09-Jun-2021 19:24:25
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -165,5 +165,13 @@ function pushbuttonAtenuacion_Callback(hObject, eventdata, handles)
 close(menudis)
 Atenuacion
 % hObject    handle to pushbuttonAtenuacion (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+
+% --- If Enable == 'on', executes on mouse press in 5 pixel border.
+% --- Otherwise, executes on mouse press in 5 pixel border or over diez.
+function diez_ButtonDownFcn(hObject, eventdata, handles)
+% hObject    handle to diez (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)

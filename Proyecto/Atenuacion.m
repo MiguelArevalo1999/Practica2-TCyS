@@ -53,7 +53,7 @@ function Atenuacion_OpeningFcn(hObject, ~, handles, varargin)
 % varargin   command line arguments to Atenuacion (see VARARGIN)
 handles.output = hObject;
 axes(handles.axes1)
-imshow('logoescom.jpg')
+imshow('meme2.jpg')
 % Choose default command line output for Atenuacion
 handles.output = hObject;
 
