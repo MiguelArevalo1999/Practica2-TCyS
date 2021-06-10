@@ -53,7 +53,7 @@ function Desplazamiento_OpeningFcn(hObject, ~, handles, varargin)
 % varargin   command line arguments to Desplazamiento (see VARARGIN)
 handles.output = hObject;
 axes(handles.axes1)
-imshow('meme3.jpg')
+imshow('logoescom.jpg')
 % Choose default command line output for Desplazamiento
 handles.output = hObject;
 

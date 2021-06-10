@@ -53,7 +53,7 @@ function Convolucion_OpeningFcn(hObject, ~, handles, varargin)
 % varargin   command line arguments to Convolucion (see VARARGIN)
 handles.output = hObject;
 axes(handles.axes1)
-imshow('logoescom.jpg')
+imshow('logoipn.png')
 % Choose default command line output for Convolucion
 handles.output = hObject;
 
@@ -128,7 +128,7 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 pause on
 x1=[0:0.2:6.4];
-x=sin(x1);       %seÃ±al de entrada
+x=sin(x1);       %señal de entrada
 h=[1 1 1 1 1 1 1 1 ];           %Respuesta al escalon
 m=length(x);
 n=length(h);
@@ -146,7 +146,7 @@ figure();
 h1=subplot(3,1,1);
 plot(xn,X,'-g') %aqui se define la nueva posicion del cero
 ylabel('h(t)')
-title('SeÃ±al De Entrada')
+title('Señal De Entrada')
 % colocar(h1,'YLim',[a b])
 h2=subplot(3,1,2);
 plot(xn,H,'-y')
@@ -167,7 +167,7 @@ subplot(3,1,3)
 plot(xn,Y,'-m')
 xlabel('Tiempo [s]')
 ylabel('y(t)')
-title('SeÃ±al de salida')
+title('Señal de salida')
 Hi= Hi([ end 1:end-1 ]);
 pause(0.5)
 end

@@ -47,7 +47,7 @@ end
 % --- Executes just before Menu is made visible.
 function Menu_OpeningFcn(hObject, eventdata, handles, varargin)
 axes(handles.menu);
-[x,map]=imread('entrada.jpg');
+[x,map]=imread('Menu.jpg');
 image(x)
 colormap(map);
 axis off

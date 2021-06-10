@@ -53,7 +53,7 @@ function Amplificacion_OpeningFcn(hObject, ~, handles, varargin)
 % varargin   command line arguments to Amplificacion (see VARARGIN)
 handles.output = hObject;
 axes(handles.axes1)
-imshow('meme1.jpg')
+imshow('logoescom.jpg')
 % Choose default command line output for Amplificacion
 handles.output = hObject;
 
