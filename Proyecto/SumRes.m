@@ -133,14 +133,14 @@ x=[aux1];
 h=[aux2];
 a=length(x);
 b=length(h);
-c=find(x==aux3);%busca elementos no nulos en el vector
-d=find(h==aux4);%busca elementos no nulos en el otro vector
+c=find(x==aux3);
+d=find(h==aux4);
 if(length(c)>1)
-    c1=c(1,1); %condicion de no negatividad
+    c1=c(1,1);
 else
     c1=c;
 end
-if(length(d)>1)%condicion de no negatividad
+if(length(d)>1)
     d1=d(1,1);
 else
     d1=d;

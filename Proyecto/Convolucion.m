@@ -128,6 +128,7 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 pause on
 x1=[0:0.2:6.4];
+print(x1);
 x=sin(x1);       %señal de entrada
 h=[1 1 1 1 1 1 1 1 ];           %Respuesta al escalon
 m=length(x);
@@ -265,7 +266,7 @@ for i=1:40-n
     stem(xn-C+1,Y,'r','MarkerFaceColor','green')
     title('\bfCONVOLUCION')
     Hi= Hi([ end 1:end-1 ]);
-    if Y(i+n-1)>0
+    if Y(i+n-1)~=0
         a(j)=Y(i+n-1);
         set(handles.text13,'String',Y(i+n-1))
         j=j+1;
